@@ -1,0 +1,17 @@
+﻿[
+  {
+    "Id": "IncreaseAllDamageSmall",
+    "Type": "IncreaseDamage",
+    "Description": "+9% damage",
+    "Value": 9,
+    "TargetStat": "AllDamage"
+  },
+  {
+    "Id": "IncreaseAllDamageMedium",
+    "Type": "IncreaseDamage",
+    "Description": "+18% damage",
+    "Value": 18,
+    "TargetStat": "AllDamage"
+  },
+
+]

@@ -1,0 +1,9 @@
+﻿[
+  {
+    "Id": "IncreaseAllDamageSmall",
+    "Type": "IncreaseAttackSpeed",
+    "Description": "+3% Attack Speed",
+    "Value": 3,
+    "TargetStat": "AttackSpeed"
+  }
+]
