@@ -1,9 +1,0 @@
-﻿[
-  {
-    "Id": "IncreaseAllDamageSmall",
-    "Type": "IncreaseCastSpeed",
-    "Description": "+3% Cast Speed",
-    "Value": 3,
-    "TargetStat": "CastSpeed"
-  }
-]

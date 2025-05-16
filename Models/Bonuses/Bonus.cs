@@ -1,19 +1,17 @@
 ﻿using System.Collections.Generic;
+using TorchAutoBuild.Models;
 
-namespace TorchAutoBuild.Models.Bonuses
+public abstract class Bonus
 {
-    public abstract class Bonus
+    public string Description { get; }
+    public IReadOnlyList<Tags> Tags { get; }
+
+    public Bonus(string description, List<Tags> tags = null)
     {
-        public string Id { get; }
-        public string Description { get; }
-
-        public Bonus(string id, string description = "")
-        {
-            Id = id;
-            Description = description;
-        }
-
-        public abstract void ApplyBonus();
-        public abstract void RemoveBonus();
+        Description = description;
+        Tags = tags.AsReadOnly();
     }
+
+    public abstract void ApplyBonus();
+    public abstract void RemoveBonus();
 }

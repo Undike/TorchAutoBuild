@@ -1,4 +1,4 @@
-﻿namespace TorchAutoBuild.Models
+﻿namespace TorchAutoBuild.Models.Bonuses
 {
     public enum BonusTarget
     {

@@ -1,14 +1,19 @@
-﻿using TorchAutoBuild.Models.Bonuses;
+﻿using System.Collections.Generic;
 
 namespace TorchAutoBuild.Models.Talents
 {
-    class CoreTalentNode : Bonus
+    public class CoreTalent : Bonus // TODO 
     {
+        public string Id { get; }
         public string Name { get; }
 
-        public CoreTalentNode(string id, string name, string description = "") : base(id, description)
+        public IReadOnlyList<Bonus> Bonuses { get; }
+
+        public CoreTalent(string id, string name, string description, List<Bonus> bonuses, List<Tags> tags) : base(description, tags)
         {
+            Id = id;
             Name = name;
+            Bonuses = bonuses.AsReadOnly();
         }
 
         public override void ApplyBonus()

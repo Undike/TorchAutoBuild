@@ -1,8 +1,7 @@
 ﻿namespace TorchAutoBuild.Models.Bonuses
 {
-    public enum BonusType
+    public enum BonusType // for Fabric
     {
         IncreaseDamage,
-
     }
 }

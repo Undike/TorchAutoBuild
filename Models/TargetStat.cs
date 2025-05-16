@@ -2,18 +2,42 @@
 {
     public enum TargetStat
     {
-        AllDamage,
-        AttackDamage,
-        SpellDamage,
-        FireDamage,
-        ColdDamage,
-        LightningDamage,
-        ErosionDamage,
-        IgnaiteDamage,
+        // Offensive
+        IncreaseAllDamage,
+        IncreaseAttackDamage,
+        IncreaseSpellDamage,
+        IncreaseFireDamage,
+        IncreaseColdDamage,
+        IncreaseLightningDamage,
+        IncreaseErosionDamage,
 
-        AttackSpeed,
-        CastSpeed,
+        IncreaseIgnaiteDamage,
+        IncreaseIgniteChance,
 
-        //Add as needed
+        IncreaseAttackSpeed,
+        IncreaseCastSpeed,
+
+        IncreaseCriticalStrikeDamage,
+        IncreaseMeleeCriticalStrikeDamage,
+
+        IncreaseAttackCriticalStrikeRating,
+        IncreaseRangedAttackCriticalStrikeRating,
+
+        IncreaseProjectileSpeed,
+
+        //Skill Area
+        IncreaseFireSkillArea,
+        IncreaseSkillArea,
+
+        // Defensive
+        IncreaseMaxLife,
+
+        IncreaseArmor,
+
+        // Utility
+        IncreaseAttackSkillCost,
+
+        IncreaseMovementSpeed,
+        // Add as needed
     }
 }

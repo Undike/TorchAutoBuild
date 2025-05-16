@@ -1,0 +1,170 @@
+﻿{
+  "Id": "god_of_might",
+  "Name": "God of Might",
+  "TalentTrees": [
+    {
+      "Id": "god_of_might_tree",
+      "TreeType": "Base",
+      "Name": "God of Might Tree",
+      "Size": 7,
+      "CoreTalentSlots": [
+        {
+          "PointsRequired": 12,
+          "CoreTalents": [
+            {
+              "Id": "god_of_might_tree_core_01",
+              "Name": "Elimination",
+              "Description": "Core talent 1",
+              "Bonuses": [
+                {
+                  "Description": "",
+                  "Tags": [ "" ]
+                }
+              ]
+            },
+            {
+              "Id": "god_of_might_tree_core_02",
+              "Name": "Momentum",
+              "Description": "Core talent 2",
+              "Bonuses": [
+                {
+                  "Description": "",
+                  "Tags": [ "" ]
+                }
+              ]
+            },
+            {
+              "Id": "god_of_might_tree_core_02",
+              "Name": "Tenacity",
+              "Description": "Core talent 3",
+              "Bonuses": [
+                {
+                  "Description": "",
+                  "Tags": [ "" ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PointsRequired": 24,
+          "CoreTalents": [
+            {
+              "Id": "god_of_might_tree_core_04",
+              "Name": "Great Strength",
+              "Description": "Core talent 4",
+              "Bonuses": [
+                {
+                  "Description": "",
+                  "Tags": [ "" ]
+                }
+              ]
+            },
+            {
+              "Id": "god_of_might_tree_core_05",
+              "Name": "Fueling",
+              "Description": "Core talent 5",
+              "Bonuses": [
+                {
+                  "Description": "",
+                  "Tags": [ "" ]
+                }
+              ]
+            },
+            {
+              "Id": "god_of_might_tree_core_06",
+              "Name": "Blazing Fire",
+              "Description": "Core talent 6",
+              "Bonuses": [
+                {
+                  "Description": "",
+                  "Tags": [ "" ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "TalentNodes": [
+        {
+          "Id": "might_01",
+          "Description": "+9% damage",
+          "Pos": {
+            "X": 0,
+            "Y": 1
+          },
+          "PrerequisiteTalentPos": null,
+          "RequiredTreePoints": 0,
+          "MaxInvestPoints": 1,
+          "Bonuses": [
+            {
+              "Type": "Increase",
+              "Description": "+10% Attack Power",
+              "Value": 10.0,
+              "TargetStat": "AttackPower",
+              "TargetEntities": [ "Self" ],
+              "Tags": [ "Attack", "Physical" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_02",
+          "Description": "Increase defense by 5%",
+          "Pos": {
+            "X": 3,
+            "Y": 2
+          },
+          "PrerequisiteTalentPos": {
+            "X": 2,
+            "Y": 1
+          },
+          "RequiredTreePoints": 5,
+          "MaxInvestPoints": 1,
+          "Bonuses": [
+            {
+              "Type": "Increase",
+              "Description": "+5% Defense",
+              "Value": 5.0,
+              "TargetStat": "Defense",
+              "TargetEntities": [ "Self" ],
+              "Tags": [ "Defense" ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "warrior_advanced_1",
+      "Name": "Path of Rage",
+      "Type": "AdvancedTier1",
+      "Size": 5,
+      "CoreTalentSlots": [],
+      "Nodes": [
+        {
+          "Id": "rage_01",
+          "Description": "Increase critical hit chance",
+          "Pos": {
+            "X": 1,
+            "Y": 3
+          },
+          "PrerequisiteTalentPos": {
+            "X": 2,
+            "Y": 1
+          },
+          "RequiredTreePoints": 16,
+          "MaxInvestPoints": 2,
+          "Bonuses": [
+            {
+              "Type": "Increase",
+              "Description": "+5% Crit Chance",
+              "Value": 5.0,
+              "TargetStat": "CritChance",
+              "TargetEntities": [ "Self" ],
+              "Tags": [ "Attack", "Critical" ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
