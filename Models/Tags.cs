@@ -50,6 +50,10 @@
         Aura,
 
         // Custom Tags
+
+        FireResistance,
+        FireDamage,
+        SkillCost,
         CastSpeed,
         AttackSpeed,
         Damage,
@@ -60,12 +64,15 @@
         AttackSkillCost,
         Armor,
         Life,
-        IgniteDamage,
-        IgniteChance,
-        ProjectileSpeed,
+        Ignite,
         RangedAttackCriticalStrike,
         SkillArea,
         FireSkillArea,
         MovementSpeed,
+        CriticalStrikeRating,
+        WarcryCooldown,
+        AttackSkillLevel,
+        AdditionAttackDamage,
+
     }
 }

@@ -88,46 +88,710 @@
       "TalentNodes": [
         {
           "Id": "might_01",
-          "Description": "+9% damage",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 0,
+          "MaxInvestPoints": 3,
           "Pos": {
             "X": 0,
-            "Y": 1
+            "Y": 2
           },
           "PrerequisiteTalentPos": null,
-          "RequiredTreePoints": 0,
-          "MaxInvestPoints": 1,
           "Bonuses": [
             {
-              "Type": "Increase",
-              "Description": "+10% Attack Power",
-              "Value": 10.0,
-              "TargetStat": "AttackPower",
-              "TargetEntities": [ "Self" ],
-              "Tags": [ "Attack", "Physical" ]
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 9,
+              "TargetStat": "IncreaseDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Damage" ]
             }
           ]
         },
         {
           "Id": "might_02",
-          "Description": "Increase defense by 5%",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 1,
+            "Y": 1
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 3,
+              "TargetStat": "IncreaseAttackSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "AttackSpeed" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_03",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 1,
+            "Y": 2
+          },
+          "PrerequisiteTalentPos": {
+            "X": 0,
+            "Y": 2
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 18,
+              "TargetStat": "IncreaseDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Damage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_04",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 1,
+            "Y": 3
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 3,
+              "TargetStat": "IncreaseCastSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "CastSpeed" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_05",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 2,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 10,
+              "TargetStat": "IncreaseAttackCriticalStrikeRating",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "CriticalStrikeRating" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 3,
+              "TargetStat": "IncreaseCriticalStrikeDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "CriticalStrikeDamage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_06",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 2,
+            "Y": 1
+          },
+          "PrerequisiteTalentPos": {
+            "X": 1,
+            "Y": 1
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 6,
+              "TargetStat": "IncreaseCastSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "CastSpeed" ]
+            },
+            {
+              "Type": "AddFlatStat",
+              "Description": "-{Value} {TargetStat}",
+              "Value": 4,
+              "TargetStat": "IncreaseAttackSkillCost",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "SkillCost" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_07",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 2,
+            "Y": 2
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 5,
+              "TargetStat": "IncreaseArmor",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Armor" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 2,
+              "TargetStat": "IncreaseMaxLife",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Life" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_08",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 0,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 2,
+            "Y": 3
+          },
+          "PrerequisiteTalentPos": {
+            "X": 1,
+            "Y": 3
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 5,
+              "TargetStat": "IncreaseCastSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "CastSpeed" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 5,
+              "TargetStat": "IncreaseFireSkillArea",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "FireSkillArea" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_09",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 2,
+            "Y": 4
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 8,
+              "TargetStat": "IncreaseIgniteDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Ignite" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 6,
+              "TargetStat": "IncreaseIgniteChance",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Ignite" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_10",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 3,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": {
+            "X": 2,
+            "Y": 0
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 9,
+              "TargetStat": "IncreaseProjectileSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Projectile" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 25,
+              "TargetStat": "IncreaseRangedAttackCriticalStrikeRating",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "RangedCriticalStrikeRating" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_11",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 3,
+            "Y": 1
+          },
+          "PrerequisiteTalentPos": {
+            "X": 2,
+            "Y": 0
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 10,
+              "TargetStat": "IncreaseSkillArea",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "SkillArea" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 10,
+              "TargetStat": "IncreaseMeleeCriticalStrikeDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "MeleeCriticalStrikeDamage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_12",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 3,
           "Pos": {
             "X": 3,
             "Y": 2
           },
           "PrerequisiteTalentPos": {
             "X": 2,
-            "Y": 1
+            "Y": 2
           },
-          "RequiredTreePoints": 5,
-          "MaxInvestPoints": 1,
           "Bonuses": [
             {
-              "Type": "Increase",
-              "Description": "+5% Defense",
-              "Value": 5.0,
-              "TargetStat": "Defense",
-              "TargetEntities": [ "Self" ],
-              "Tags": [ "Defense" ]
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 10,
+              "TargetStat": "IncreaseArmor",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Armor" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 4,
+              "TargetStat": "IncreaseMaxLife",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "MaxLife" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_13",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 3,
+            "Y": 4
+          },
+          "PrerequisiteTalentPos": {
+            "X": 2,
+            "Y": 4
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 16,
+              "TargetStat": "IncreaseIgniteDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Ignite" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 12,
+              "TargetStat": "IncreaseIgniteChance",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Ignite" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_14",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 4,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 9,
+              "TargetStat": "IncreaseAttackDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "AttackDamage" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 2,
+              "TargetStat": "IncreaseMovementSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "MovementSpeed" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_15",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 4,
+            "Y": 2
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "AddFlatStat",
+              "Description": "+{Value} {TargetStat}",
+              "Value": 8,
+              "TargetStat": "AddStrength",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Strength" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_16",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 4,
+          "Pos": {
+            "X": 4,
+            "Y": 3
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 9,
+              "TargetStat": "IncreaseFireDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "FireDamage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_17",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 4,
+          "Pos": {
+            "X": 4,
+            "Y": 4
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 9,
+              "TargetStat": "IncreaseAttackDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "AttackDamage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_18",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 2,
+          "Pos": {
+            "X": 5,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": {
+            "X": 4,
+            "Y": 0
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 18,
+              "TargetStat": "IncreaseAttackDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "AttackDamage" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 4,
+              "TargetStat": "IncreaseMovementSpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "MovementSpeed" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_19",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 5,
+            "Y": 1
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 2,
+              "TargetStat": "IncreaseMaxLife",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Life" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 1.5,
+              "TargetStat": "IncreaseLifeRegain",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Life" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_20",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 5,
+            "Y": 2
+          },
+          "PrerequisiteTalentPos": {
+            "X": 4,
+            "Y": 2
+          },
+          "Bonuses": [
+            {
+              "Type": "AddFlatStat",
+              "Description": "+{Value} {TargetStat}",
+              "Value": 16,
+              "TargetStat": "AddStrength",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Strength" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_21",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 2,
+          "Pos": {
+            "X": 5,
+            "Y": 3
+          },
+          "PrerequisiteTalentPos": {
+            "X": 4,
+            "Y": 3
+          },
+          "Bonuses": [
+            {
+              "Type": "AddFlatStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 5,
+              "TargetStat": "AddFireResistance",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "FireResistance" ]
+            },
+            {
+              "Type": "ChangeDamageType",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 50,
+              "TargetStat": "ConvertPhysicalToFireDamage",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "PhysicalToFireDamage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_22",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 2,
+          "Pos": {
+            "X": 5,
+            "Y": 4
+          },
+          "PrerequisiteTalentPos": {
+            "X": 4,
+            "Y": 4
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 10,
+              "TargetStat": "WarcryCooldownRecoverySpeed",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "WarcryCooldown" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_23",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 6,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": {
+            "X": 5,
+            "Y": 0
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value} {TargetStat}",
+              "Value": 1,
+              "TargetStat": "IncreaseAttackSkillLevel",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "AttackSkillLevel" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_24",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 6,
+            "Y": 1
+          },
+          "PrerequisiteTalentPos": {
+            "X": 5,
+            "Y": 1
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 4,
+              "TargetStat": "IncreaseMaxLife",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Life" ]
+            },
+            {
+              "Type": "IncreaseStat",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": 3,
+              "TargetStat": "IncreaseLifeRegain",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "Life" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_25",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 6,
+            "Y": 2
+          },
+          "PrerequisiteTalentPos": {
+            "X": 5,
+            "Y": 2
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseAdditionalStatWithCooldownCondition", // Check if it is working correctly
+              "Description": "+{Value}% {TargetStat}",
+              "Value": {
+                "Value": 12,
+                "Cooldown": 1
+              },
+              "TargetStat": "IncreaseAdditionFireDamageByMainSkill",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "FireDamage" ]
+            }
+          ]
+        },
+        {
+          "Id": "might_26",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 6,
+            "Y": 4
+          },
+          "PrerequisiteTalentPos": {
+            "X": 5,
+            "Y": 4
+          },
+          "Bonuses": [
+            {
+              "Type": "IncreaseAdditionAttackDamageIfUseSkillRecently",
+              "Description": "+{Value}% {TargetStat}",
+              "Value": {
+                "Value": 12,
+                "SkillTag": "Warcry"
+              },
+              "TargetStat": "IncreaseAdditionAttackDamageIfUseSkillRecently",
+              "TargetEntities": [ "Character" ],
+              "Tags": [ "AdditionAttackDamage" ]
             }
           ]
         }

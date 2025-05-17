@@ -12,13 +12,13 @@ namespace TorchAutoBuild.Models.Bonuses
         private readonly Action<T> _removeBonus;
 
         public TargetStat TargetStat { get; }
-        public IReadOnlyList<BonusTarget> TargetEntities { get; }
+        public IReadOnlyList<TargetEntity> TargetEntities { get; }
 
         public GenericBonus(
             string description,
             T value,
             TargetStat targetStat,
-            List<BonusTarget> targetEntities,
+            List<TargetEntity> targetEntities,
             List<Tags> tags,
             Action<T> apply,
             Action<T> remove

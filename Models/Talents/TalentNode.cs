@@ -6,11 +6,11 @@ namespace TorchAutoBuild.Models.Talents
     {
         public string Id { get; }
         public TalentType TalentType { get; }
-        public IReadOnlyList<Bonus> Bonuses { get; }
-        public TalentNodePos Pos { get; }
         public int RequiredTreePoints { get; }
         public int MaxInvestPoints { get; }
+        public TalentNodePos Pos { get; }
         public TalentNodePos? PrerequisiteTalentPos { get; }
+        public IReadOnlyList<Bonus> Bonuses { get; }
 
         public TalentNode(
             string id,

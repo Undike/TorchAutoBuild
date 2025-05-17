@@ -8,7 +8,7 @@ namespace TorchAutoBuild.Models.Bonuses
         public string Description { get; set; }
         public float Value { get; set; }
         public MinMaxDamageRange? DamageRange { get; set; }
-        public List<BonusTarget> TargetEntities { get; set; }
+        public List<TargetEntity> TargetEntities { get; set; }
         public List<Tags> Tags { get; set; }
         public TargetStat TargetStat { get; set; }
     }

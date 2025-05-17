@@ -1,6 +1,6 @@
 ﻿namespace TorchAutoBuild.Models.Bonuses
 {
-    public enum BonusTarget
+    public enum TargetEntity
     {
         Character,
         Minion,
