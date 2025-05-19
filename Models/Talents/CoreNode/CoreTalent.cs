@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using TorchAutoBuild.Models.Bonuses;
 
-namespace TorchAutoBuild.Models.Talents
+namespace TorchAutoBuild.Models.Talents.CoreNode
 {
     public class CoreTalent : Bonus // TODO 
     {

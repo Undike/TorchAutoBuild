@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="TorchAutoBuild.UI.GodsOverviewWindow"
+        Width="800"
+        Height="400"
+        Title="Выбор Бога и Древа Талантов">
+
+	<ScrollViewer HorizontalScrollBarVisibility="Auto"
+				  VerticalScrollBarVisibility="Auto"
+				  Padding="10">
+
+		<Grid x:Name="GodsGrid">
+			<!-- it is created dynamically from the code C# -->
+		</Grid>
+
+	</ScrollViewer>
+</Window>

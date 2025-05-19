@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 
-namespace TorchAutoBuild.Models.Talents
+namespace TorchAutoBuild.Models.Talents.CoreNode
 {
     public class CoreTalentSlotData
     {
-        public int PointsRequired { get; set; }
+        public int UnlockPointsThreshold { get; set; }
         public List<CoreTalentData> CoreTalents { get; set; }
     }
 }

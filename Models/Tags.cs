@@ -65,7 +65,7 @@
         Armor,
         Life,
         Ignite,
-        RangedAttackCriticalStrike,
+        RangedAttackCriticalStrikeRating,
         SkillArea,
         FireSkillArea,
         MovementSpeed,
@@ -74,5 +74,7 @@
         AttackSkillLevel,
         AdditionAttackDamage,
 
+        PhysicalToFireDamage,
+        Test, // for testing
     }
 }

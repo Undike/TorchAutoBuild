@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using TorchAutoBuild.Models.Bonuses;
+using TorchAutoBuild.Models.Talents.CoreNode;
+using TorchAutoBuild.Models.Talents.Node;
 
-namespace TorchAutoBuild.Models.Talents
+namespace TorchAutoBuild.Models.Talents.Tree
 {
     public class TalentTree
     {
@@ -11,7 +12,7 @@ namespace TorchAutoBuild.Models.Talents
         public string Name { get; }
         public int Size { get; }
 
-        private readonly Dictionary<TalentNodePos, TalentNode> _grid;
+        private readonly Dictionary<TalentNodePos, TalentNode> _nodeList;
         private readonly Dictionary<string, TalentNode> _nodesById;
         private readonly HashSet<Tags> _tags;
 
@@ -20,24 +21,23 @@ namespace TorchAutoBuild.Models.Talents
         public IReadOnlyList<CoreTalentSlot> CoreTalentSlots { get; }
 
         public TalentTree(
-        string id,
-        TalentTreeType treeType,
-        string name,
-        int size,
-        List<TalentNode> nodes,
-        List<CoreTalentSlot> coreTalentSlots)
+            string id,
+            TalentTreeType treeType,
+            string name,
+            int size,
+            Dictionary<TalentNodePos, TalentNode> nodeList,
+            List<CoreTalentSlot> coreTalentSlots)
         {
             Id = id;
             TreeType = treeType;
             Name = name;
             Size = size;
 
-            _grid = nodes.ToDictionary(n => n.Pos, n => n);
-            _nodesById = nodes.ToDictionary(n => n.Id, n => n);
+            _nodeList = nodeList;
+            _nodesById = nodeList.Values.ToDictionary(n => n.Id, n => n);
 
-            // Add all tags from bonuses to the HashSet
             _tags = new HashSet<Tags>();
-            foreach (var node in nodes)
+            foreach (var node in _nodeList.Values)
             {
                 foreach (var bonus in node.Bonuses)
                 {
@@ -55,6 +55,6 @@ namespace TorchAutoBuild.Models.Talents
     => _nodesById.TryGetValue(id, out var node) ? node : null;
 
         public TalentNode GetNodeByPos(TalentNodePos pos)
-            => _grid.TryGetValue(pos, out var node) ? node : null;
+            => _nodeList.TryGetValue(pos, out var node) ? node : null;
     }
 }

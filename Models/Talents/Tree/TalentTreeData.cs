@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using TorchAutoBuild.Models.Talents.CoreNode;
+using TorchAutoBuild.Models.Talents.Node;
 
-namespace TorchAutoBuild.Models.Talents
+namespace TorchAutoBuild.Models.Talents.Tree
 {
     public class TalentTreeData
     {

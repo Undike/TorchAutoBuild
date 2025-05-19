@@ -2,8 +2,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d"
         x:Class="TorchAutoBuild.MainWindow"
-        Title="TorchAutoBuild">
-    Welcome to Avalonia!
+        Title="TorchAutoBuild"
+        Width="800"
+        Height="450">
+
+	<Grid>
+		<!-- Button on Top-Right corner-->
+		<Button Content="Talents"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="10"
+                Click="OpenTalentsWindow"/>
+	</Grid>
 </Window>

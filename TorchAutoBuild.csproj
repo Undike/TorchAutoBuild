@@ -20,11 +20,18 @@
     </PackageReference>
     <PackageReference Include="EntityFramework" Version="6.5.1" />
     <PackageReference Include="EntityFramework.ru" Version="6.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Assets\" />
+    <Folder Include="Data\" />
     <Folder Include="Data\Bonuses\" />
-    <Folder Include="UI\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UI\GodsOverviewWindow.axaml.cs">
+      <DependentUpon>GodsOverviewWindow.axaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

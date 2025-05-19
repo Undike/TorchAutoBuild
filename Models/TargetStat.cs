@@ -10,8 +10,7 @@
         IncreaseColdDamage,
         IncreaseLightningDamage,
         IncreaseErosionDamage,
-
-        IncreaseIgnaiteDamage,
+        IncreaseIgniteDamage,
         IncreaseIgniteChance,
 
         IncreaseAttackSpeed,
@@ -51,6 +50,7 @@
 
         // With Condition
         IncreaseAdditionFireDamageByMainSkill,
+        IncreaseAdditionAttackDamageIfUseSkillRecently,
 
         // Add as needed
 

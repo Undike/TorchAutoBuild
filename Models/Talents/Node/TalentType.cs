@@ -1,4 +1,4 @@
-﻿namespace TorchAutoBuild.Models.Talents
+﻿namespace TorchAutoBuild.Models.Talents.Node
 {
     public enum TalentType
     {

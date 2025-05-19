@@ -9,7 +9,7 @@
       "Size": 7,
       "CoreTalentSlots": [
         {
-          "PointsRequired": 12,
+          "UnlockPointsThreshold": 12,
           "CoreTalents": [
             {
               "Id": "god_of_might_tree_core_01",
@@ -18,7 +18,7 @@
               "Bonuses": [
                 {
                   "Description": "",
-                  "Tags": [ "" ]
+                  "Tags": [ "Test" ]
                 }
               ]
             },
@@ -29,7 +29,7 @@
               "Bonuses": [
                 {
                   "Description": "",
-                  "Tags": [ "" ]
+                  "Tags": [ "Test" ]
                 }
               ]
             },
@@ -40,14 +40,14 @@
               "Bonuses": [
                 {
                   "Description": "",
-                  "Tags": [ "" ]
+                  "Tags": [ "Test" ]
                 }
               ]
             }
           ]
         },
         {
-          "PointsRequired": 24,
+          "UnlockPointsThreshold": 24,
           "CoreTalents": [
             {
               "Id": "god_of_might_tree_core_04",
@@ -56,7 +56,7 @@
               "Bonuses": [
                 {
                   "Description": "",
-                  "Tags": [ "" ]
+                  "Tags": [ "Test" ]
                 }
               ]
             },
@@ -67,7 +67,7 @@
               "Bonuses": [
                 {
                   "Description": "",
-                  "Tags": [ "" ]
+                  "Tags": [ "Test" ]
                 }
               ]
             },
@@ -78,7 +78,7 @@
               "Bonuses": [
                 {
                   "Description": "",
-                  "Tags": [ "" ]
+                  "Tags": [ "Test" ]
                 }
               ]
             }
@@ -352,7 +352,7 @@
               "Value": 25,
               "TargetStat": "IncreaseRangedAttackCriticalStrikeRating",
               "TargetEntities": [ "Character" ],
-              "Tags": [ "RangedCriticalStrikeRating" ]
+              "Tags": [ "RangedAttackCriticalStrikeRating" ]
             }
           ]
         },
@@ -416,7 +416,7 @@
               "Value": 4,
               "TargetStat": "IncreaseMaxLife",
               "TargetEntities": [ "Character" ],
-              "Tags": [ "MaxLife" ]
+              "Tags": [ "Life" ]
             }
           ]
         },
@@ -756,12 +756,9 @@
           },
           "Bonuses": [
             {
-              "Type": "IncreaseAdditionalStatWithCooldownCondition", // Check if it is working correctly
+              "Type": "IncreaseAdditionalStatWithCooldownCondition", // this bonus need to be modify for corectly work
               "Description": "+{Value}% {TargetStat}",
-              "Value": {
-                "Value": 12,
-                "Cooldown": 1
-              },
+              "Value": 12,
               "TargetStat": "IncreaseAdditionFireDamageByMainSkill",
               "TargetEntities": [ "Character" ],
               "Tags": [ "FireDamage" ]
@@ -783,48 +780,12 @@
           },
           "Bonuses": [
             {
-              "Type": "IncreaseAdditionAttackDamageIfUseSkillRecently",
+              "Type": "IncreaseAdditionAttackDamageIfUseSkillRecently", // this bonus need to be modify for corectly work 
               "Description": "+{Value}% {TargetStat}",
-              "Value": {
-                "Value": 12,
-                "SkillTag": "Warcry"
-              },
+              "Value": 12,
               "TargetStat": "IncreaseAdditionAttackDamageIfUseSkillRecently",
               "TargetEntities": [ "Character" ],
               "Tags": [ "AdditionAttackDamage" ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Id": "warrior_advanced_1",
-      "Name": "Path of Rage",
-      "Type": "AdvancedTier1",
-      "Size": 5,
-      "CoreTalentSlots": [],
-      "Nodes": [
-        {
-          "Id": "rage_01",
-          "Description": "Increase critical hit chance",
-          "Pos": {
-            "X": 1,
-            "Y": 3
-          },
-          "PrerequisiteTalentPos": {
-            "X": 2,
-            "Y": 1
-          },
-          "RequiredTreePoints": 16,
-          "MaxInvestPoints": 2,
-          "Bonuses": [
-            {
-              "Type": "Increase",
-              "Description": "+5% Crit Chance",
-              "Value": 5.0,
-              "TargetStat": "CritChance",
-              "TargetEntities": [ "Self" ],
-              "Tags": [ "Attack", "Critical" ]
             }
           ]
         }
