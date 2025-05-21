@@ -1,0 +1,1142 @@
+{
+  "Id": "elementalist",
+  "TreeType": "Advanced1",
+  "Name": "Elementalist",
+  "Size": 9,
+  "CoreTalentSlots": [
+    {
+      "UnlockPointsThreshold": 16,
+      "CoreTalents": [
+        {
+          "Id": "elementalist_core_1",
+          "Name": "Focus",
+          "Description": "+2\nMax Channeled Stacks\r\n% additional damage for every\r\nadditional Max Channeled Stack(s)",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "elementalist_core_2",
+          "Name": "Adaptation",
+          "Description": "25\nConverts\r\n% of Physical Damage taken to random\r\nDamage\r\n% Max",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "elementalist_core_3",
+          "Name": "Translucent",
+          "Description": "+20\n% additional Lightning Damage if you have dealt Fire Damage recently\r\n% additional Cold Damage if you have dealt Lightning Damage recently\r\n% additional Fire Damage if you have dealt Cold Damage recently",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UnlockPointsThreshold": 32,
+      "CoreTalents": [
+        {
+          "Id": "elementalist_core_5",
+          "Name": "Peculiar Vibe",
+          "Description": "+50\n% 几率造成\r\n状态\r\n对\r\n状态下的敌人，额外\r\n% 伤害",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "elementalist_core_6",
+          "Name": "Penetrating",
+          "Description": "+30\nElemental Skill Ignores Armor\r\n% additional Physical Damage taken",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TalentNodes": [
+    {
+      "Id": "elementalist_1",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage for Channeled Skills",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_2",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_3",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n%\r\nDamage\r\n% Minion Elemental Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_4",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% damage for Channeled Skills",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_5",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_6",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_7",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Critical Strike Rating\r\n% Minion Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_8",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n%\r\nDamage\r\n% Minion Elemental Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_9",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_10",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed\r\nSkill Cost",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_11",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_12",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+20\n% Critical Strike Rating\r\n% Minion Critical Strike Rating\r\n% Critical Strike Damage\r\n% Minion Critical Strike Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_13",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1.5\nDamage Penetrates\r\n%\r\nResistance\r\nMinion Damage penetrates\r\n% Elemental Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_14",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_15",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "4.5\n% Projectile Speed\r\n% Minion Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_16",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+5\n% Max Life\r\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_17",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% 几率造成\r\n状态\r\n召唤物\r\n% 几率造成\r\n状态",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_18",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "4\n造成伤害时，敌人每有一种\r\n状态，伤害穿透\r\n% 元素抗性\r\nMinion Damage penetrates\r\n% Elemental Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_19",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_20",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Projectile Speed\r\n% Minion Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_21",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1.5\n%\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_22",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% 几率造成\r\n状态\r\n召唤物\r\n% 几率造成\r\n状态",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_23",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_24",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+60\n% damage while standing still",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_25",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\nIntelligence",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_26",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n%\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_27",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+10\n%\r\nDuration\r\n% damage when\r\nis active",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_28",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "-8\n% additional\r\nDamage taken for every type of\r\nDamage recently received",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_29",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Attack and Cast Speed for Channeled Skills",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_30",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Intelligence",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_31",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_32",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n% chance to gain\r\nand\r\nwhen receiving",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_33",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_34",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% damage for every\r\nadditional Max Channeled Stack(s)",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_35",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% Attack and Cast Speed when channeled stacks have not reached cap",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_36",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Energy Shield\r\n拥有护盾时，\r\n% 几率避免\r\n状态",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_37",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "2\nAdds\r\n-\r\nFire Damage to Attacks and Spells\r\nAdds\r\n-\r\nLightning Damage to Attacks and Spells\r\nAdds\r\n-\r\nCold Damage to Attacks and Spells",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_38",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_39",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nMax Channeled Stacks",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_40",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+40\n% additional Beam Length",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_41",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nFire Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_42",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nLightning Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "elementalist_43",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nCold Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    }
+  ]
+}

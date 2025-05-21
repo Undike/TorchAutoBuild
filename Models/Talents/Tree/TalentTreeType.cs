@@ -3,7 +3,7 @@
     public enum TalentTreeType
     {
         Base,
-        Advanced,
+        Advanced1,
         Advanced2,
         Advanced3,
         ForTesting,

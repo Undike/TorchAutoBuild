@@ -1,0 +1,1070 @@
+{
+  "Id": "ranger",
+  "TreeType": "Advanced1",
+  "Name": "Ranger",
+  "Size": 9,
+  "CoreTalentSlots": [
+    {
+      "UnlockPointsThreshold": 16,
+      "CoreTalents": [
+        {
+          "Id": "ranger_core_1",
+          "Name": "Fluke",
+          "Description": "50\nCritical Strikes have the\r\neffect while having at least",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "ranger_core_2",
+          "Name": "Gravity",
+          "Description": "+20\n% additional Melee Damage\r\nMelee Skill has",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "ranger_core_3",
+          "Name": "Shooting Arrows",
+          "Description": "+20\n% additional Projectile Damage\r\n%\r\ndistance",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UnlockPointsThreshold": 32,
+      "CoreTalents": [
+        {
+          "Id": "ranger_core_5",
+          "Name": "Impending",
+          "Description": "0.25\nEvery\r\ns, +6% additional damage taken for enemies within\r\nm. Stacks up to 5 times",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "ranger_core_6",
+          "Name": "Rapid Shots",
+          "Description": "+35\nProjectile Damage increases with the distance traveled, dealing up to\r\n% additional damage to\r\nenemies",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TalentNodes": [
+    {
+      "Id": "ranger_1",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_2",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Life\r\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_3",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_4",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+30\n% Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_5",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "7.5\n% Critical Strike Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_6",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Max Life\r\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_7",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+25\n% damage dealt to\r\nenemies",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_8",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+25\n% damage to\r\nenemies",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_9",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_10",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Critical Strike Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_11",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_12",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Area Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_13",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Projectile Damage\r\n% Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_14",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n%\r\n% chance for Critical Strikes to cause",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_15",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_16",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+5\n% Attack and Cast Speed\r\n% Movement Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_17",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% Area Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_18",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% Projectile Damage\r\n% Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_19",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_20",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_21",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Life\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_22",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n%\r\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_23",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n% Attack Block Chance\r\n% Spell Block Chance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_24",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+30\n% Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_25",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% Max Life\r\n%\r\n% additional\r\nInterval if you have dealt a Critical Strike recently",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_26",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+5\n%\r\n%\r\nResistance\r\n% additional damage taken when there are enemies in",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_27",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Attack Block Chance\r\n% Spell Block Chance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_28",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n%\r\neffect",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_29",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_30",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1.5\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_31",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Melee Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_32",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+10\n% chance to cause",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_33",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "0.6\n% Critical Strike Damage per",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_34",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_35",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n%\r\n% additional\r\nInterval when there are no enemies",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_36",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% Melee Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_37",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n%\r\ndistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_38",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "10\nCritical Strikes can eliminate enemies under\r\n% Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_39",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% additional damage taken by enemies in",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "ranger_40",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "150\n% of the increase/decrease on\r\ndistance is also applied to damage bonus",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    }
+  ]
+}

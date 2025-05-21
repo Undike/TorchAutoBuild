@@ -1,0 +1,1094 @@
+{
+  "Id": "warlock",
+  "TreeType": "Advanced1",
+  "Name": "Warlock",
+  "Size": 9,
+  "CoreTalentSlots": [
+    {
+      "UnlockPointsThreshold": 16,
+      "CoreTalents": [
+        {
+          "Id": "warlock_core_1",
+          "Name": "Prelude",
+          "Description": "+25\nUsing a Non-Main Skill will make the next Main Skill deal\r\n% additional damage. The effect can not stack",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "warlock_core_2",
+          "Name": "Vile",
+          "Description": "+3\nDuration of\r\ncaused by Critical Strikes is doubled\r\nFor every\r\n% Critical Strike Damage,\r\n% additional Ailment Damage",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "warlock_core_3",
+          "Name": "Indifference",
+          "Description": "+1\nall skills' level\r\n% Sealed Mana Compensation",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UnlockPointsThreshold": 32,
+      "CoreTalents": [
+        {
+          "Id": "warlock_core_5",
+          "Name": "Dirty Tricks",
+          "Description": "+6\nGuaranteed to inflict all types of Ailment on hit\r\nUpon inflicting damage,\r\n% additional damage for every type of\r\nthe enemy has (multiplies)",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "warlock_core_6",
+          "Name": "Stab In The Back",
+          "Description": "+35\nWhile\r\nis active, loses\r\nafter casting a Main Skill, and the skill deals\r\n% additional damage",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TalentNodes": [
+    {
+      "Id": "warlock_1",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_2",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_3",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_4",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_5",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "-4\n% Skill Cost\r\n%\r\neffect",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_6",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_7",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_8",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_9",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_10",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "-8\n% Skill Cost\r\n%\r\neffect",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_11",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "2.5\n% Max Life\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_12",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed\r\nSkill Cost",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_13",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_14",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_15",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_16",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+5\n% Max Life\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_17",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% chance to cause\r\n% chance for Minions to inflict\r\n%\r\nDuration",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_18",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+20\n% Critical Strike Rating\r\n% Critical Strike Damage against enemies affected by",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_19",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_20",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_21",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Energy Shield\r\nSpeed\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_22",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% chance to cause\r\n% chance for Minions to inflict\r\n%\r\nDuration",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_23",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% 几率避免\r\n状态",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_24",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\nDefensive Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_25",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1.5\n% Cooldown Recovery Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_26",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Energy Shield\r\nSpeed\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_27",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_28",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+7\n% 几率避免\r\n状态",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_29",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_30",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+10\n% Cooldown Recovery Speed\r\nMax Charges",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_31",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_32",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1\nEnergy Shield\r\ncannot be interrupted by damage for\r\ns after it starts",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_33",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_34",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Movement Speed while\r\nis active",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_35",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+60\n% Mana Regeneration Speed\r\nGains\r\nfor every\r\nMana consumed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_36",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_37",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_38",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nall skills' level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_39",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Movement Speed while\r\nis active\r\n% chance to gain\r\non defeat",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_40",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\nUpon inflicting damage,\r\n% damage for every type of\r\nthe enemy has",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "warlock_41",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "Ailment Damage ignores Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    }
+  ]
+}

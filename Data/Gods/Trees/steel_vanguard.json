@@ -1,0 +1,1118 @@
+{
+  "Id": "steel_vanguard",
+  "TreeType": "Advanced1",
+  "Name": "Steel Vanguard",
+  "Size": 9,
+  "CoreTalentSlots": [
+    {
+      "UnlockPointsThreshold": 16,
+      "CoreTalents": [
+        {
+          "Id": "steel_vanguard_core_1",
+          "Name": "Reflection",
+          "Description": "+5\n% additional damage for each type of Aura you are affected by\r\nMinions\r\n% additional damage for each type of Aura they are affected by",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "steel_vanguard_core_2",
+          "Name": "Resistance",
+          "Description": "+15\n%\r\nResistance\r\n% 几率避免\r\n状态",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "steel_vanguard_core_3",
+          "Name": "Curtain",
+          "Description": "+40\n% additional\r\nShield",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UnlockPointsThreshold": 32,
+      "CoreTalents": [
+        {
+          "Id": "steel_vanguard_core_5",
+          "Name": "Poison Immunity",
+          "Description": "+5\n%\r\nConverts\r\n% of Physical Damage and Elemental Damage taken to Erosion Damage",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "steel_vanguard_core_6",
+          "Name": "Kinetic Conversion",
+          "Description": "100\n% chance to gain a\r\nfor every\r\nm you move\r\nRefreshes\r\nwhen gaining\r\n% additional\r\nShield",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TalentNodes": [
+    {
+      "Id": "steel_vanguard_1",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_2",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Life\r\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_3",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_4",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_5",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_6",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Max Life\r\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_7",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1.5\n%\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_8",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_9",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_10",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Attack and Cast Speed\r\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_11",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_12",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n%\r\n%",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_13",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Erosion Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_14",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n% Max Mana",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_15",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_16",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+5\n% Max Energy Shield\r\n% Energy Shield\r\nSpeed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_17",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+8\n% Erosion Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_18",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+300\nArmor\r\n% Armor",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_19",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nEmpower Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_20",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "4.5\n% Projectile Speed\r\n% Minion Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_21",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+7\n%\r\nShield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_22",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n%\r\nResistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_23",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+600\nArmor\r\n% Armor",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_24",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_25",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Projectile Speed\r\n% Minion Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_26",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+14\n%\r\nShield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_27",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "-8\n% additional\r\nDamage taken",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_28",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% damage\r\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_29",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nImbue Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_30",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+7\n%\r\nShield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_31",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Erosion Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_32",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "8\nConverts\r\n% of Physical Damage taken to random\r\nDamage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_33",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+10\n% damage for\r\ns on defeat. Stacks up to\r\ntime(s)",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_34",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n% Aura Effect",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_35",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+14\n%\r\nShield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_36",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\n%\r\nConverts\r\n% of Physical Damage and Elemental Damage taken to Erosion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_37",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "2\nDamage Penetrates\r\n%\r\nResistance\r\nMinion Damage penetrates\r\n% Elemental Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_38",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Movement Speed for\r\ns on defeat. Stacks up to\r\ntime(s)",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_39",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Aura Effect",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_40",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+10\n%\r\nAbsorption Rate",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_41",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "10\n% additional damage applied to Life\r\nMinions deal\r\n% additional damage to Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "steel_vanguard_42",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "4\nDamage Penetrates\r\n%\r\nResistance\r\nMinion Damage penetrates\r\n% Elemental Resistance",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    }
+  ]
+}

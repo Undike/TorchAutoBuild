@@ -35,8 +35,7 @@ namespace TorchAutoBuild.Factories
                             id: t.Id,
                             name: t.Name,
                             description: t.Description,
-                            bonuses: t.Bonuses.Select(BonusFactory.Create).ToList(),
-                            tags: t.Tags
+                            bonuses: t.Bonuses.Select(BonusFactory.Create).ToList()
                         )
                     ).ToList()
                 )

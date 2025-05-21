@@ -1,0 +1,1046 @@
+{
+  "Id": "machinist",
+  "TreeType": "Advanced1",
+  "Name": "Machinist",
+  "Size": 9,
+  "CoreTalentSlots": [
+    {
+      "UnlockPointsThreshold": 16,
+      "CoreTalents": [
+        {
+          "Id": "machinist_core_1",
+          "Name": "Boss",
+          "Description": "+1\nto Max Summonable Synthetic Troops\r\n% additional Minion Damage",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "machinist_core_2",
+          "Name": "Heat Up",
+          "Description": "+30\n% additional Sentry Damage if Sentry Skill has been cast recently\r\n% additional Sentry Start Time",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "machinist_core_3",
+          "Name": "Rally",
+          "Description": "+1\nSynthetic Troop Minions summoned at a time\r\n% additional Minion Damage",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UnlockPointsThreshold": 32,
+      "CoreTalents": [
+        {
+          "Id": "machinist_core_5",
+          "Name": "Co-resonance",
+          "Description": "+25\n% additional Sentry Damage\r\nAttack Speed bonus and\r\n% of additional bonus are also applied to Attack Sentries' Cast Frequency\r\nCast Speed bonus and\r\n% of additional bonus are also applied to Spell Sentries' Cast Frequency",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "machinist_core_6",
+          "Name": "United Stand",
+          "Description": "-5\n% additional damage taken for every nearby Synthetic Troop Minion within 10m\r\n% Minion",
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": null,
+              "Tags": [
+                "Test"
+              ],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TalentNodes": [
+    {
+      "Id": "machinist_1",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_2",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Max Life\r\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_3",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 0,
+      "MaxInvestPoints": 3,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% Sentry Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_4",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+18\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_5",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_6",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Max Life\r\n% Max Energy Shield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_7",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Sentry Skill cast frequency",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_8",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 3,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+24\n% Sentry Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_9",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Minion Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_10",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Minion Attack and Cast Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_11",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+7\n% Minion Max Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_12",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+6\n% Sentry Skill cast frequency",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_13",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 6,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+15\n% Sentry Skill Critical Strike Rating",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_14",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+20\n% Minion Critical Strike Rating\r\n% Minion Critical Strike Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_15",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "1\n+\r\nper second",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_16",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+14\n% Minion Max Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_17",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% Sentry Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_18",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 9,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+20\n% Sentry Skill Critical Strike Rating\r\n% Sentry Skill Critical Strike Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_19",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "2\n+\r\nper second",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_20",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n% Max Energy Shield\r\n% Energy Shield\r\nSpeed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_21",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 12,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+20\n% Sentry Damage\r\n% Sentry Skill Area\r\n% Sentry Projectile Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_22",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+7\n% Minion Max Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_23",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Max Energy Shield\r\n% Energy Shield\r\nSpeed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_24",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+7\n%\r\nShield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_25",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 15,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n% Movement Speed",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_26",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+14\n% Minion Max Life",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_27",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+9\n% Minion Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_28",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n% Max Life\r\nRegenerates\r\n% Life per second",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_29",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+25\n%\r\nShield",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_30",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 18,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Movement Speed\r\n% Sentry Damage when moving",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_31",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+2\n% chance for Synthetic Troop Minions to deal Double Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_32",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+3\n% Armor DMG Mitigation Penetration for Minions",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_33",
+      "TalentType": "Medium",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Max Life\r\nRegenerates\r\n% Life per second",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_34",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+4\n% Sentry Skill cast frequency",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_35",
+      "TalentType": "Minor",
+      "RequiredTreePoints": 21,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+12\n% Sentry Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_36",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nSynthetic Troop Skill Level",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_37",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "10\nAdds\r\nBase Ailment Damage to Minions",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_38",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+30\n% Sentry Skill cast frequency\r\n% additional Sentry Damage",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    },
+    {
+      "Id": "machinist_39",
+      "TalentType": "Legendary",
+      "RequiredTreePoints": 24,
+      "MaxInvestPoints": 1,
+      "Pos": {
+        "X": 0,
+        "Y": 0
+      },
+      "PrerequisiteTalentPos": null,
+      "Bonuses": [
+        {
+          "Type": "IncreaseStat",
+          "Description": "+1\nSentry quantity that can be deployed at a time",
+          "Value": 0.0,
+          "DamageRange": null,
+          "TargetEntities": [
+            "Character"
+          ],
+          "Tags": [],
+          "TargetStat": "IncreaseDamage"
+        }
+      ]
+    }
+  ]
+}

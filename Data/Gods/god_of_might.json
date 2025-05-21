@@ -5,14 +5,14 @@
     {
       "Id": "god_of_might_tree",
       "TreeType": "Base",
-      "Name": "God of Might Tree",
+      "Name": "God of Might",
       "Size": 7,
       "CoreTalentSlots": [
         {
           "UnlockPointsThreshold": 12,
           "CoreTalents": [
             {
-              "Id": "god_of_might_tree_core_01",
+              "Id": "god_of_might_core_1",
               "Name": "Elimination",
               "Description": "Core talent 1",
               "Bonuses": [
@@ -23,7 +23,7 @@
               ]
             },
             {
-              "Id": "god_of_might_tree_core_02",
+              "Id": "god_of_might_core_2",
               "Name": "Momentum",
               "Description": "Core talent 2",
               "Bonuses": [
@@ -34,7 +34,7 @@
               ]
             },
             {
-              "Id": "god_of_might_tree_core_02",
+              "Id": "god_of_might_core_3",
               "Name": "Tenacity",
               "Description": "Core talent 3",
               "Bonuses": [
@@ -50,7 +50,7 @@
           "UnlockPointsThreshold": 24,
           "CoreTalents": [
             {
-              "Id": "god_of_might_tree_core_04",
+              "Id": "god_of_might_core_4",
               "Name": "Great Strength",
               "Description": "Core talent 4",
               "Bonuses": [
@@ -61,7 +61,7 @@
               ]
             },
             {
-              "Id": "god_of_might_tree_core_05",
+              "Id": "god_of_might_core_5",
               "Name": "Fueling",
               "Description": "Core talent 5",
               "Bonuses": [
@@ -72,7 +72,7 @@
               ]
             },
             {
-              "Id": "god_of_might_tree_core_06",
+              "Id": "god_of_might_core_6",
               "Name": "Blazing Fire",
               "Description": "Core talent 6",
               "Bonuses": [
@@ -87,7 +87,7 @@
       ],
       "TalentNodes": [
         {
-          "Id": "might_01",
+          "Id": "god_of_might_1",
           "TalentType": "Minor",
           "RequiredTreePoints": 0,
           "MaxInvestPoints": 3,
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "Id": "might_02",
+          "Id": "god_of_might_2",
           "TalentType": "Minor",
           "RequiredTreePoints": 3,
           "MaxInvestPoints": 3,
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "Id": "might_03",
+          "Id": "god_of_might_3",
           "TalentType": "Medium",
           "RequiredTreePoints": 3,
           "MaxInvestPoints": 3,
@@ -153,7 +153,7 @@
           ]
         },
         {
-          "Id": "might_04",
+          "Id": "god_of_might_4",
           "TalentType": "Minor",
           "RequiredTreePoints": 3,
           "MaxInvestPoints": 3,
@@ -174,7 +174,7 @@
           ]
         },
         {
-          "Id": "might_05",
+          "Id": "god_of_might_5",
           "TalentType": "Minor",
           "RequiredTreePoints": 6,
           "MaxInvestPoints": 3,
@@ -203,7 +203,7 @@
           ]
         },
         {
-          "Id": "might_06",
+          "Id": "god_of_might_6",
           "TalentType": "Medium",
           "RequiredTreePoints": 6,
           "MaxInvestPoints": 3,
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "Id": "might_07",
+          "Id": "god_of_might_7",
           "TalentType": "Minor",
           "RequiredTreePoints": 6,
           "MaxInvestPoints": 3,
@@ -264,7 +264,7 @@
           ]
         },
         {
-          "Id": "might_08",
+          "Id": "god_of_might_8",
           "TalentType": "Medium",
           "RequiredTreePoints": 0,
           "MaxInvestPoints": 3,
@@ -296,7 +296,7 @@
           ]
         },
         {
-          "Id": "might_09",
+          "Id": "god_of_might_9",
           "TalentType": "Minor",
           "RequiredTreePoints": 6,
           "MaxInvestPoints": 3,
@@ -325,7 +325,7 @@
           ]
         },
         {
-          "Id": "might_10",
+          "Id": "god_of_might_10",
           "TalentType": "Medium",
           "RequiredTreePoints": 9,
           "MaxInvestPoints": 3,
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "Id": "might_11",
+          "Id": "god_of_might_11",
           "TalentType": "Medium",
           "RequiredTreePoints": 9,
           "MaxInvestPoints": 3,
@@ -389,7 +389,7 @@
           ]
         },
         {
-          "Id": "might_12",
+          "Id": "god_of_might_12",
           "TalentType": "Medium",
           "RequiredTreePoints": 9,
           "MaxInvestPoints": 3,
@@ -421,7 +421,7 @@
           ]
         },
         {
-          "Id": "might_13",
+          "Id": "god_of_might_13",
           "TalentType": "Medium",
           "RequiredTreePoints": 9,
           "MaxInvestPoints": 3,
@@ -453,7 +453,7 @@
           ]
         },
         {
-          "Id": "might_14",
+          "Id": "god_of_might_14",
           "TalentType": "Minor",
           "RequiredTreePoints": 12,
           "MaxInvestPoints": 3,
@@ -482,7 +482,7 @@
           ]
         },
         {
-          "Id": "might_15",
+          "Id": "god_of_might_15",
           "TalentType": "Minor",
           "RequiredTreePoints": 12,
           "MaxInvestPoints": 3,
@@ -503,7 +503,7 @@
           ]
         },
         {
-          "Id": "might_16",
+          "Id": "god_of_might_16",
           "TalentType": "Minor",
           "RequiredTreePoints": 12,
           "MaxInvestPoints": 4,
@@ -524,7 +524,7 @@
           ]
         },
         {
-          "Id": "might_17",
+          "Id": "god_of_might_17",
           "TalentType": "Minor",
           "RequiredTreePoints": 12,
           "MaxInvestPoints": 4,
@@ -545,7 +545,7 @@
           ]
         },
         {
-          "Id": "might_18",
+          "Id": "god_of_might_18",
           "TalentType": "Medium",
           "RequiredTreePoints": 15,
           "MaxInvestPoints": 2,
@@ -577,7 +577,7 @@
           ]
         },
         {
-          "Id": "might_19",
+          "Id": "god_of_might_19",
           "TalentType": "Minor",
           "RequiredTreePoints": 15,
           "MaxInvestPoints": 3,
@@ -606,7 +606,7 @@
           ]
         },
         {
-          "Id": "might_20",
+          "Id": "god_of_might_20",
           "TalentType": "Medium",
           "RequiredTreePoints": 15,
           "MaxInvestPoints": 3,
@@ -630,7 +630,7 @@
           ]
         },
         {
-          "Id": "might_21",
+          "Id": "god_of_might_21",
           "TalentType": "Medium",
           "RequiredTreePoints": 15,
           "MaxInvestPoints": 2,
@@ -662,7 +662,7 @@
           ]
         },
         {
-          "Id": "might_22",
+          "Id": "god_of_might_22",
           "TalentType": "Medium",
           "RequiredTreePoints": 15,
           "MaxInvestPoints": 2,
@@ -686,7 +686,7 @@
           ]
         },
         {
-          "Id": "might_23",
+          "Id": "god_of_might_23",
           "TalentType": "Legendary",
           "RequiredTreePoints": 18,
           "MaxInvestPoints": 1,
@@ -710,7 +710,7 @@
           ]
         },
         {
-          "Id": "might_24",
+          "Id": "god_of_might_24",
           "TalentType": "Medium",
           "RequiredTreePoints": 18,
           "MaxInvestPoints": 3,
@@ -742,7 +742,7 @@
           ]
         },
         {
-          "Id": "might_25",
+          "Id": "god_of_might_25",
           "TalentType": "Legendary",
           "RequiredTreePoints": 18,
           "MaxInvestPoints": 1,
@@ -766,7 +766,7 @@
           ]
         },
         {
-          "Id": "might_26",
+          "Id": "god_of_might_26",
           "TalentType": "Legendary",
           "RequiredTreePoints": 18,
           "MaxInvestPoints": 1,
@@ -786,6 +786,1124 @@
               "TargetStat": "IncreaseAdditionAttackDamageIfUseSkillRecently",
               "TargetEntities": [ "Character" ],
               "Tags": [ "AdditionAttackDamage" ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "the_brave",
+      "TreeType": "Advanced1",
+      "Name": "The Brave",
+      "Size": 9,
+      "CoreTalentSlots": [
+        {
+          "UnlockPointsThreshold": 16,
+          "CoreTalents": [
+            {
+              "Id": "the_brave_core_1",
+              "Name": "Judgment",
+              "Description": "+100\n% chance for Attacks to inflict\r\non hit\r\n% additional Critical Strike Damage against\r\nenemies",
+              "Bonuses": [
+                {
+                  "Type": "IncreaseStat",
+                  "Description": "",
+                  "Value": 0.0,
+                  "DamageRange": null,
+                  "TargetEntities": null,
+                  "Tags": [
+                    "Test"
+                  ],
+                  "TargetStat": "IncreaseDamage"
+                }
+              ]
+            },
+            {
+              "Id": "the_brave_core_2",
+              "Name": "Resolve",
+              "Description": "+4\n% additional Armor per stack of\r\nowned",
+              "Bonuses": [
+                {
+                  "Type": "IncreaseStat",
+                  "Description": "",
+                  "Value": 0.0,
+                  "DamageRange": null,
+                  "TargetEntities": null,
+                  "Tags": [
+                    "Test"
+                  ],
+                  "TargetStat": "IncreaseDamage"
+                }
+              ]
+            },
+            {
+              "Id": "the_brave_core_3",
+              "Name": "Joined Force",
+              "Description": "60\nWeapons do not participate in Attacks while\r\nAdds\r\n% of the damage of the\r\nto the",
+              "Bonuses": [
+                {
+                  "Type": "IncreaseStat",
+                  "Description": "",
+                  "Value": 0.0,
+                  "DamageRange": null,
+                  "TargetEntities": null,
+                  "Tags": [
+                    "Test"
+                  ],
+                  "TargetStat": "IncreaseDamage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "UnlockPointsThreshold": 32,
+          "CoreTalents": [
+            {
+              "Id": "the_brave_core_5",
+              "Name": "Ember Armor",
+              "Description": "+25\n%\r\nfor Non-Physical Damage",
+              "Bonuses": [
+                {
+                  "Type": "IncreaseStat",
+                  "Description": "",
+                  "Value": 0.0,
+                  "DamageRange": null,
+                  "TargetEntities": null,
+                  "Tags": [
+                    "Test"
+                  ],
+                  "TargetStat": "IncreaseDamage"
+                }
+              ]
+            },
+            {
+              "Id": "the_brave_core_6",
+              "Name": "Formless",
+              "Description": "+25\nWarcry is cast immediately\r\n% additional Melee Damage",
+              "Bonuses": [
+                {
+                  "Type": "IncreaseStat",
+                  "Description": "",
+                  "Value": 0.0,
+                  "DamageRange": null,
+                  "TargetEntities": null,
+                  "Tags": [
+                    "Test"
+                  ],
+                  "TargetStat": "IncreaseDamage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "TalentNodes": [
+        {
+          "Id": "the_brave_1",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 0,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+9\n% Attack Damage",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_2",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 0,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+3\n% Max Life",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_3",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 0,
+          "MaxInvestPoints": 3,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+7\n% Armor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_4",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+18\n% Attack Damage",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_5",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+3\n% Attack Speed",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_6",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+5\n% Max Life\r\nRegenerates\r\n% Life per second",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_7",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+450\nArmor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_8",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 3,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+14\n% Armor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_9",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+15\n% Attack Critical Strike Rating",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_10",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+6\n% Attack Speed\r\nSkill Cost",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_11",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+4\n% Attack Block Chance",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_12",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+900\nArmor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_13",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 6,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+3\n% Max Life\r\n% Max Energy Shield",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_14",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+20\n% Attack Critical Strike Rating\r\n% Critical Strike Damage",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_15",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "1.5\n%",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_16",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+8\n% Attack Block Chance",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_17",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+10\n%\r\nDuration\r\n% Elemental Resistance while\r\nis active",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_18",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 9,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+6\n% Max Life\r\n% Max Energy Shield",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_19",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+9\n% Attack Damage",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_20",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+3\n%",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_21",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+5\n% Projectile Speed",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_22",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 12,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+25\n% chance to gain\r\nstacks of\r\nwhen taking damage. Interval:\r\ns",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_23",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+18\n% Attack Damage",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_24",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+7\n% Warcry Skill Area",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_25",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+10\n% Projectile Speed",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_26",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+8\n% Armor per stack of\r\nowned",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_27",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 15,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "30\n-\r\nPhysical Damage taken",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_28",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+9\n% Attack Damage",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_29",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+14\n% Warcry Skill Area",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_30",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+5\nThe minimum number of enemies affected by Warcry",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_31",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+7\n% Armor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_32",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 18,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "-20\n% additional\r\nDamage taken",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_33",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 21,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+8\n% Attack Speed while",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_34",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 21,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+8\n% Attack Speed while holding a Shield",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_35",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 21,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+8\nStrength",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_36",
+          "TalentType": "Medium",
+          "RequiredTreePoints": 21,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+4\n% chance to gain double Armor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_37",
+          "TalentType": "Minor",
+          "RequiredTreePoints": 21,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+7\n% Armor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_38",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 24,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+6\n% additional Attack Damage for each unique type of weapon equipped while",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_39",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 24,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+8\n% additional\r\nDamage while holding a Shield\r\n% Movement Speed when holding a Shield",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_40",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 24,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+1\n% Armor for every\r\nStrength",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_41",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 24,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "+50\n%\r\ngained from Chest Armor",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
+            }
+          ]
+        },
+        {
+          "Id": "the_brave_42",
+          "TalentType": "Legendary",
+          "RequiredTreePoints": 24,
+          "MaxInvestPoints": 1,
+          "Pos": {
+            "X": 0,
+            "Y": 0
+          },
+          "PrerequisiteTalentPos": null,
+          "Bonuses": [
+            {
+              "Type": "IncreaseStat",
+              "Description": "0.5\n%\r\nResistance per\r\nArmor. Stacks up to\r\n% .\r\n% Erosion Resistance per\r\nArmor. Stacks up to\r\n% .",
+              "Value": 0.0,
+              "DamageRange": null,
+              "TargetEntities": [
+                "Character"
+              ],
+              "Tags": [],
+              "TargetStat": "IncreaseDamage"
             }
           ]
         }

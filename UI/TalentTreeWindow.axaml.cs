@@ -13,11 +13,13 @@ namespace TorchAutoBuild.UI
 {
     public partial class TalentTreeWindow : Window
     {
-        private TalentTree _tree; 
+        private TalentTree _tree;
+        private string _godName;
 
-        public TalentTreeWindow(TalentTree tree)
+        public TalentTreeWindow(TalentTree tree, string godName)
         {
             InitializeComponent();
+            _godName = godName;
             _tree = tree;
             TreeTitle.Text = _tree.Name;
             BuildTalentGrid();
@@ -34,6 +36,7 @@ namespace TorchAutoBuild.UI
                     DrawLinesBetweenTalents();
                 }
             };
+            
         }
 
         private void BuildCoreTalentGrid()
@@ -41,6 +44,13 @@ namespace TorchAutoBuild.UI
             CoreTalentGrid.Children.Clear();
             CoreTalentGrid.RowDefinitions.Clear();
             CoreTalentGrid.ColumnDefinitions.Clear();
+
+            var exeDir = AppContext.BaseDirectory;
+            var projectRoot = Path.GetFullPath(Path.Combine(exeDir, @"..\..\..\"));
+            var godsFolder = Path.Combine(projectRoot, "Assets");
+            string godFolder = Path.Combine(godsFolder, "Gods", _godName.Replace(" ", ""));
+            string treeFolder = Path.Combine(godFolder, _tree.Name.Replace(" Tree", "").Replace(" ", ""));
+            var imageFolder = Path.Combine(treeFolder, "images");
 
             if (_tree?.CoreTalentSlots == null)
                 return;
@@ -74,9 +84,26 @@ namespace TorchAutoBuild.UI
                 for (int i = 0; i < groupColumns; i++)
                 {
                     var coreTalent = slot.CoreTalents[i];
+                    var imagePath = Path.Combine(imageFolder, $"{coreTalent.Id}.png");
+                    Debug.WriteLine($"Image path: {imagePath}");
+                    if (!File.Exists(imagePath))
+                        imagePath = Path.Combine(godsFolder, "talent.png");
+
                     var btn = new Button
                     {
-                        Content = coreTalent.Name,
+                        HorizontalAlignment = Avalonia.Layout.HorizontalAlignment.Stretch,
+                        VerticalAlignment = Avalonia.Layout.VerticalAlignment.Stretch,
+                        Background = Avalonia.Media.Brushes.Transparent,
+                        BorderBrush = Avalonia.Media.Brushes.Transparent,
+                        BorderThickness = new Thickness(0),
+                        Padding = new Thickness(0),
+                        Content = new Image
+                        {
+                            Source = new Avalonia.Media.Imaging.Bitmap(imagePath),
+                            Stretch = Avalonia.Media.Stretch.Uniform,
+                            Width = 80,
+                            Height = 80
+                        },
                         Tag = coreTalent
                     };
 
@@ -94,6 +121,9 @@ namespace TorchAutoBuild.UI
             var exeDir = AppContext.BaseDirectory;
             var projectRoot = Path.GetFullPath(Path.Combine(exeDir, @"..\..\..\"));
             var godsFolder = Path.Combine(projectRoot, "Assets");
+            string godFolder = Path.Combine(godsFolder, "Gods", _godName.Replace(" ", ""));
+            string treeFolder = Path.Combine(godFolder, _tree.Name.Replace(" Tree", "").Replace(" ", ""));
+            var imageFolder = Path.Combine(treeFolder, "images");
 
             if (_tree == null)
                 return;
@@ -112,16 +142,26 @@ namespace TorchAutoBuild.UI
 
                     if (node != null)
                     {
+                        var imagePath = Path.Combine(imageFolder, $"{node.Id}.png");
+
+                    if (!File.Exists(imagePath))
+                        imagePath = Path.Combine(godsFolder, "talent.png");
+
                         var btn = new Button
                         {
                             HorizontalAlignment = Avalonia.Layout.HorizontalAlignment.Stretch,
                             VerticalAlignment = Avalonia.Layout.VerticalAlignment.Stretch,
+                            Background = Avalonia.Media.Brushes.Transparent, 
+                            BorderBrush = Avalonia.Media.Brushes.Transparent, 
+                            BorderThickness = new Thickness(0),              
+                            Padding = new Thickness(0),                       
+
                             Content = new Image
                             {
-                                Source = new Avalonia.Media.Imaging.Bitmap(Path.Combine(godsFolder, "talent.png")),
+                                Source = new Avalonia.Media.Imaging.Bitmap(imagePath),
                                 Stretch = Avalonia.Media.Stretch.Uniform,
-                                Width = 40,
-                                Height = 40
+                                Width = 80,
+                                Height = 80
                             },
                             Tag = node.Id,
                             IsEnabled = true
@@ -162,10 +202,26 @@ namespace TorchAutoBuild.UI
                     var fromPos = node.PrerequisiteTalentPos.Value;
                     var toPos = node.Pos;
 
-                    var startPoint = GetButtonCenterPosition(fromPos);
-                    var endPoint = GetButtonCenterPosition(toPos);
-                    Debug.WriteLine($"From: {fromPos}, To: {toPos}");
-                    Debug.WriteLine($"StartPoint: {startPoint}, EndPoint: {endPoint}");
+                    //var startPoint = GetButtonCenterPosition(fromPos);
+                    //var endPoint = GetButtonCenterPosition(toPos);
+                    //Debug.WriteLine($"From: {fromPos}, To: {toPos}");
+                    //Debug.WriteLine($"StartPoint: {startPoint}, EndPoint: {endPoint}");
+                    var centerA = GetButtonCenterPosition(fromPos);
+                    var centerB = GetButtonCenterPosition(toPos);
+
+                    // Вектор от A к B
+                    var dx = centerB.X - centerA.X;
+                    var dy = centerB.Y - centerA.Y;
+                    var length = Math.Sqrt(dx * dx + dy * dy);
+
+                    // Смещение на 40 пикселей от центра к краям
+                    int offset = 30;
+                    var offsetX = dx / length * offset;
+                    var offsetY = dy / length * offset;
+
+                    var startPoint = new Point(centerA.X + offsetX, centerA.Y + offsetY);
+                    var endPoint = new Point(centerB.X - offsetX, centerB.Y - offsetY);
+
 
 
                     var line = new Avalonia.Controls.Shapes.Line
@@ -173,7 +229,7 @@ namespace TorchAutoBuild.UI
                         StartPoint = startPoint,
                         EndPoint = endPoint,
                         Stroke = Avalonia.Media.Brushes.Yellow,
-                        StrokeThickness = 4,
+                        StrokeThickness = 2,
                     };
 
                     LinesCanvas.Children.Add(line);
@@ -199,7 +255,7 @@ namespace TorchAutoBuild.UI
                 }
             }
 
-            Debug.WriteLine($"The Button can`t find at position {pos}");
+            //Debug.WriteLine($"The Button can`t find at position {pos}");
             return new Point(0, 0);
         }
 

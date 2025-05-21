@@ -9,6 +9,5 @@ namespace TorchAutoBuild.Models.Talents.CoreNode
         public string Name { get; set; }
         public string Description { get; set; }
         public List<BaseBonusData> Bonuses { get; set; }
-        public List<Tags> Tags { get; set; }
     }
 }

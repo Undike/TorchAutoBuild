@@ -3,15 +3,11 @@
         x:Class="TorchAutoBuild.UI.GodsOverviewWindow"
         Width="800"
         Height="400"
-        Title="Выбор Бога и Древа Талантов">
+        Title="Select God and Talent Tree">
 
-	<ScrollViewer HorizontalScrollBarVisibility="Auto"
-				  VerticalScrollBarVisibility="Auto"
-				  Padding="10">
-
-		<Grid x:Name="GodsGrid">
-			<!-- it is created dynamically from the code C# -->
-		</Grid>
-
-	</ScrollViewer>
+	<Grid Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+		<Grid x:Name="GodsGrid"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch"/>
+	</Grid>
 </Window>

@@ -10,7 +10,7 @@ namespace TorchAutoBuild.Models.Talents.CoreNode
 
         public IReadOnlyList<Bonus> Bonuses { get; }
 
-        public CoreTalent(string id, string name, string description, List<Bonus> bonuses, List<Tags> tags) : base(description, tags)
+        public CoreTalent(string id, string name, string description, List<Bonus> bonuses ) : base(description)
         {
             Id = id;
             Name = name;
